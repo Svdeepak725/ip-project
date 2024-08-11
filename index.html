@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Manager</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <header>
+        <h1>Photo Manager</h1>
+        <a href="login.html" id="logout">Login</a>
+    </header>
+    <main>
+        <section class="upload-section">
+            <h2>Upload Your Photos</h2>
+            <input type="file" id="fileInput" multiple>
+            <button id="uploadButton">Upload</button>
+        </section>
+        <section class="gallery-section">
+            <h2>Your Photos</h2>
+            <div class="gallery" id="gallery">
+                <!-- Photos will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <script src="home.js"></script>
+</body>
+</html>
